@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+ }
+   
+.App{
+  background-image: url(https://www.pngplay.com/wp-content/uploads/13/Landscape-PNG-Photo-Image.png)
+}
+
+h1{
+ color: darkcyan;
+ background-color: aquamarine;
+ padding-bottom: 15px;
+ padding-top: 2px;
+ border-radius: 5px;
+ box-shadow: 2px 2px 8px rgba(0, 0, 0, 1.5);
+}
+
+
+ .card{
+  padding: 20px;
+  width: 500px;
+  margin: 0  auto;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  border: transparent;
+  font-size: 1.2rem;
+  color: white  
+ }
+
+ .icon{
+  width: 100px;
+ }
+ 
+.boton {
+  background-color: aquamarine;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 2.0);
+ }
