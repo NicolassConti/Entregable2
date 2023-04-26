@@ -1,6 +1,7 @@
 
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import fondoVideo from "./assets/nubes.mp4"
 import './App.css'
  
 
@@ -42,7 +43,7 @@ function App() {
     <div className="App">
       <div>
         <video muted autoPlay loop>
-          <source src='./nubes.mp4' type='video/mp4'/>
+          <source src={fondoVideo} type='video/mp4'/>
         </video>
       </div>
       <div className='card'>
