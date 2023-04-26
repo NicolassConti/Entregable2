@@ -7,7 +7,7 @@
 
 
 *{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   box-sizing: border-box;
 }
@@ -32,30 +32,28 @@ h1{
  padding-bottom: 15px;
  padding-top: 2px;
  border-radius: 5px;
- box-shadow: 2px 2px 8px rgba(0, 0, 0, 1.5);
+ box-shadow: 16px 14px 20px #000000;
 }
 
 
  .card{
-  padding: 20px;
-  width: 500px;
+  padding: 100px;
+  width: 700px;
+  border-radius: 5%;
   margin: 0  auto;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 16px 14px 20px #000000;
   border: transparent;
   position: relative;
   z-index: 2;
-  font-size: 1.2rem;
-  color: white
-   
+  overflow: hidden;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255)
  }
 
- .icon{
-  width: 100px;
- }
- 
+
 .boton {
   background-color: aquamarine;
   color: black;
   transform: scale(1.1);
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 2.0);
+  box-shadow: 16px 14px 20px #000000;
  }
