@@ -42,7 +42,7 @@ function App() {
     <div className="App">
       <div>
         <video muted autoPlay loop>
-          <source src='./public/fondo.mp4' type='video/mp4'/>
+          <source src='./nubes.mp4' type='video/mp4'/>
         </video>
       </div>
       <div className='card'>
