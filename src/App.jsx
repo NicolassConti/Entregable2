@@ -40,6 +40,11 @@ function App() {
 
   return (
     <div className="App">
+      <div>
+        <video muted autoPlay loop>
+          <source src='./public/fondo.mp4' type='video/mp4'/>
+        </video>
+      </div>
       <div className='card'>
         <h1 className='h1'>Weather App</h1>
             <img className='icon'  src="http://openweathermap.org/img/wn/01n.png" alt="" />
