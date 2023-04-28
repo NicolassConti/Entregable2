@@ -28,10 +28,11 @@ video{
 
 h1{
  color: darkcyan;
- background-color: aquamarine;
+ background-color: rgba(127, 255, 212, 0.555);
  padding-bottom: 15px;
  padding-top: 2px;
- border-radius: 5px;
+ padding-bottom: 5px;
+ border-radius: 10px;
  box-shadow: 16px 14px 20px #000000;
 }
 
@@ -52,9 +53,10 @@ h1{
 
 
 .boton {
-  background-color: aquamarine;
+  background-color: rgba(127, 255, 212, 0.555);
   color: black;
   transform: scale(1.1);
   box-shadow: 16px 14px 20px #000000;
+  border-radius: 10px;
  }
 
